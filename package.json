@@ -1,20 +1,30 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
-  "main": "generator.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nathan Ma",
-  "license": "ISC",
+  "description": "Password Manager",
+  "main": "breach.js",
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.4",
-    "generate-password": "^1.4.1",
     "hbs": "^4.0.3",
-    "random-word-by-length": "^0.1.0",
+    "generate-password": "^1.4.1",
     "randomstring": "^1.1.5",
+    "random-word-by-length": "^0.1.0",
     "strong-password-generator": "^1.0.6"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathankazuki/PasswordManager.git"
+  },
+  "author": "Nathan Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathankazuki/PasswordManager/issues"
+  },
+  "homepage": "https://github.com/nathankazuki/PasswordManager#readme"
 }
